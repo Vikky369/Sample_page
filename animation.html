@@ -1,0 +1,90 @@
+<html>
+<head>
+<style>
+body{
+background:red;
+animation-name:abc;
+animation-duration:2s;
+animation-iteration-count:infinite;
+animation-direction:alternate;
+text-align:center;
+color:white;
+//line-height:750px;
+padding-top:200px;
+
+box-sizing:border-box;
+font-size:100px;
+font-family:impact;
+text-shadow:10px 10px 10px black;
+}
+
+@keyframes abc{
+0%{
+background:red;
+text-shadow:10px 10px 10px black;
+color:red;
+}
+20%{
+background:yellow;
+text-shadow:10px 10px 10px navy;
+color:black;
+}
+40%{
+background:equa;
+text-shadow:10px 10px 10px red;
+color:green;
+}
+80%{
+background:maroon;
+text-shadow:10px 10px 10px pink;
+color:maroon;
+}
+90%{
+background:green;
+text-shadow:10px 10px 10px green;
+color:black;
+}
+100%{
+background:black;
+text-shadow:10px 10px 10px aqua;
+color:red;
+}
+}
+
+#a1{
+height:100px;
+width:100px;
+background:red;
+position:absolute;
+top:0px;
+left:0px;
+animation-name:xyz;
+animation-duration:2s;
+}
+#a2{
+height:100px;
+width:100px;
+background:white;
+position:absolute;
+top:150px;
+left:150px;
+
+}
+@keyframes xyz{
+0%{
+left:0px;
+top:0px;
+}
+100%{
+left:1000px;
+}
+}
+</style>
+</head>
+<body>
+<h1>Vivek Yadav</h1>
+<div id="a1">
+</div>
+<div id="a2"></div>
+</body>
+</html>
